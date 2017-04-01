@@ -1,21 +1,22 @@
 import React from 'react';
 
 class Formulaire extends React.Component {
-
 	render() {
 		return (
+			<form className="form">
 
-				<form className="form" >
-					<textarea required maxlength="140">
+				<textarea required maxLength="140" >
+				</textarea>
 
-					</textarea>
-					<div className="info">
+				<div className="info" >
 						140
-					</div>
+				</div>
 
-					<button type="submit">Envoyer</button>
-				</form>
+				<button type="submit" >
+						Envoyer!
+				</button>
 
+			</form>
 		)
 	}
 }
